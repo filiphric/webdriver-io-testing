@@ -1,0 +1,20 @@
+{
+  "name": "webdriver-io-testing",
+  "devDependencies": {
+    "@testing-library/webdriverio": "^3.2.1",
+    "@wdio/cli": "^9.0.9",
+    "@wdio/json-reporter": "^9.0.8",
+    "@wdio/local-runner": "^9.0.9",
+    "@wdio/mocha-framework": "^9.0.8",
+    "wdio-wait-for": "^3.0.11"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts",
+    "dev": "cd app && yarn dev"
+  },
+  "dependencies": {
+    "@wdio/spec-reporter": "^9.0.8",
+    "@wdio/types": "^9.0.8"
+  },
+  "license": "MIT"
+}
